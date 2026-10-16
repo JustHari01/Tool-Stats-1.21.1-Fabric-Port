@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "toolstats",
+  "version": "${version}",
+  "name": "Tool Stats (Unofficial Port)",
+  "description": "Displays configurable mining speed, enchantability, repair cost, durability, horse-armor protection, and available harvest levels in tooltips. Unofficial Fabric 1.21.1 port. Prepared with AI assistance.",
+  "authors": [
+    "Darkhax (original mod)",
+    "JustHari01 (unofficial port)"
+  ],
+  "license": "LGPL-2.1-only",
+  "icon": "assets/toolstats/textures/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.darkhax.toolstats.ToolStatsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
